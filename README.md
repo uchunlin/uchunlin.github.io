@@ -2,10 +2,10 @@
 
 Welcome to my personal course homepage.
 
-## About Me
+## 【 About Me 】
 
 I am a student at Yuan Ze University.
 
-## Courses
+## 【 Courses 】
 
 - CS203A
