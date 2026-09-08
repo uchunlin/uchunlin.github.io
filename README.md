@@ -2,10 +2,10 @@
 
 Welcome to my personal course homepage.
 
-## 【 About Me 】
+### 【 About Me 】
 
-I am a student at Yuan Ze University.
+I am a student at Yuan Ze University. My name is Yu-Chun Lin.
 
-## 【 Courses 】
+### 【 Courses 】
 
 - CS203A
