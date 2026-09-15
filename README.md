@@ -12,7 +12,6 @@ I am a student at Yuan Ze University.
 
 My GitHub page: [https://uchunlin.github.io/](https://uchunlin.github.io/)
 
-This is my personal portfolio website built with HTML and CSS.
 
 ### 【 Features 】
 - Introduction and about me
