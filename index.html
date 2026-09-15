@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<style>
+      body 
+	  {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+		background-image:url("Y.gif"), url("sky.jpg");
+	    background-position:top, center;
+	    background-repeat:no-repeat, no-repeat;
+	    background-size:650px, cover;
+      }
+	  
+      header, footer 
+	  {
+        padding: 20px;
+      }
+	  
+	  .p3
+	  {
+	    margin:1px 0;
+		text-shadow:1px 1px 5px beige;
+	  }
+	  
+	  .p4
+	  {
+	    text-align:center;
+		color:ivory;
+		margin:0.0000001px 0;
+		text-shadow:1px 1px steelblue;
+	  }
+	  
+	  .block1
+	  {
+	    width:500px;
+	    background-color:rgba(224,255,255);
+		border-radius:15px;
+		margin:0 auto;
+		padding:10px;
+		text-align:center;
+		line-height:20px;
+		font-size:16px;
+		color:#3a6798;
+		border:3px solid steelblue;
+	  }
+	  
+      .text-container 
+	  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        overflow: hidden; 
+        position: relative; 
+        border-top: 2px solid #0000;
+        border-bottom: 2px solid #0000;
+        margin: 0;
+      }
+	  
+      .moving-text 
+	  {
+        font-size: 30px;
+        font-weight: bold;
+        color: beige;
+        text-shadow: 1px 1px #3a6798;
+        position: relative;
+        animation: moveUp 1s ease-out forwards;
+      }
+	  
+      @keyframes moveUp 
+	  {
+        from 
+		{
+          transform: translateY(100px);
+          opacity: 1;
+        }
+        to 
+		{
+          transform: translateY(0px);
+          opacity: 1;
+        }
+	  }
+
+     div.gallery 
+	 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+     }
+
+     div.gallery-item 
+	 {
+       margin: 5px;
+       border: 5px double steelblue;
+       width: 300px;
+     }
+
+     div.gallery-item:hover 
+	 {
+       border: 5px double beige;
+     }
+
+     div.gallery-item img 
+	 {
+       width: 300px;
+       height: auto;
+     }
+
+     div.gallery-item div.desc 
+	 {
+       padding: 15px;
+       text-align: center;
+     }
+	 
+	 table
+	 {
+	   border-collapse:collapse;
+	 }
+	 
+	 td
+	 {
+	   border:3px solid steelblue;
+	   padding:0;
+	 }
+	 
+	 img
+	 {
+	   display:block;
+	   margin:0;
+	   width:300px;
+	 }
+	 
+	 a:link 
+	 {
+       color: steelblue;
+       background-color: transparent;
+       text-decoration: none;
+     }
+	 
+     a:visited 
+	 {
+       color: steelblue;
+       background-color: transparent;
+       text-decoration: none;
+     }
+	 
+     a:hover 
+	 {
+       color: #3a6798;
+       background-color: transparent;
+       text-decoration: underline;
+     }
+	 
+     a:active 
+	 {
+       color: #3a6798;
+       background-color: transparent;
+       text-decoration: underline;
+	 }
+	 
+ </style>
+ 
+<title>introduction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<hr width=1000px align=center size=10px color=lightblue />
+<hr width=500px align=center size=10px color=beige />
+
+<p style="text-align:center;color:lightblue">
+	<i>uchunlin's introduction</i></p>
+
+
+<img src="yujun.png" width="300" style="display:block;margin:auto;">
+
+<div class="text-container">
+    <div class="moving-text">YU-CHUN LIN</div>
+</div>
+
+<p style="text-align:center;color:beige;font-size: 20px;">
+	<i>Welcome to my personal homepage.</i></p>
+
+<hr width=500px align=center size=3px color=lightcyan />
+<h3>          </h3>
+
+<div style="height:120px;" class="block1">
+	<h2 style="text-shadow:1px 1px beige;">【 ABOUT ME 】 </h2>
+		<p class="p3">Hi! I'm Yu-Chun Lin, <br>
+                      a Computer Science student at Yuan Ze University.<br>
+</div>
+
+<h3>          </h3>
+<hr width=500px align=center size=3px color=lightblue />
+<h3>          </h3>
+
+<div style="height:199px;" class="block1">
+	<h2 style="text-shadow:1px 1px beige;">【 TOOLS & TECHNOLOGIES 】 </h2>
+		<ul style="text-align:left;">
+			<li>C++</li>
+                Currently learning data structures and algorithms
+            <li>HTML / CSS</li>
+                Building personal webpages and practicing web design
+            <li>Python</li>
+                Basic programming practice
+		</ul>
+</div>
+
+<h3>          </h3>
+<hr width=500px align=center size=3px color=lightskyblue />
+<h3>          </h3>
+
+<h2 style="text-shadow:1px 1px beige;color:#3a6798;">【 CREATIVE WORKS 】 </h2>
+<p class="p4">▼ Photography ▼</p>
+
+<table>
+  <tr>
+    <td><img src="251008_1.jpg" alt="sky1"></td>
+	<td><img src="251008_2.jpg" alt="sky2"></td>
+  </tr>
+  <tr>
+    <td><img src="251008_3.jpg" alt="sky3"></td>
+    <td><img src="251008_4.jpg" alt="sky4"></td>
+  </tr>
+ </table>
+ 
+<h3>          </h3>
+<hr width=500px align=center size=3px color=CornflowerBlue />
+<h3>          </h3>
+
+<p class="p4">▼ Art ▼</p>
+<div class="gallery">
+
+  <div class="gallery-item">
+  <a target="_blank" href="251006_2.jpg">
+    <img src="251006_2.jpg" alt="油畫作品" width="380px">
+  </a>
+  </div>
+
+  <div class="gallery-item">
+  <a target="_blank" href="251006_3.jpg">
+    <img src="251006_3.jpg" alt="多媒材作品" width="380px">
+  </a>
+  </div>
+
+</div>
+
+<h3>          </h3>
+<hr width=750px align=center size=3px color=steelblue />
+<hr width=750px align=center size=3px color=ivory />
+<h3>          </h3>
+
+<div style="height:120px;" class="block1">
+	<h2 style="text-shadow:1px 1px beige;">【 CONTACT 】 </h2>
+	<p class="p3">
+		My Github: 
+        <a href="https://github.com/uchunlin" target="_blank">
+        https://github.com/uchunlin
+        </a><br>
+		My Email:
+        <a href="mailto:u3djun4@gmail.com">
+        u3djun4@gmail.com
+        </a>
+    </p>
+</div>
+
+<p style="text-align:center;color:beige";>
+		 <i>Thanks for watching!
+</i></p>
+
+<hr width=500px align=center size=10px color=beige />
+<hr width=1000px align=center size=10px color=steelblue />
+
+</body> 
+</html>
